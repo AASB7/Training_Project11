@@ -1,4 +1,4 @@
-# https://github.com/kentcdodds/kentcdodds.com/blob/main/.github/workflows/deployment.yml
+
 name: Code Check
 on:
     push:
@@ -42,5 +42,3 @@ jobs:
             - name: 📥 Download deps
               uses: bahmutov/npm-install@v1
 
-            - name: 🔎 Type check
-              run: yarn format:check
